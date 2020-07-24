@@ -1,15 +1,15 @@
 server:
   port: 8080
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: postgres
-    password: password
-  jpa:
-    generate-ddl: true
-    show-sql: true
-    hibernate:
-      ddl-auto: none
+#spring:
+  #datasource:
+   # url: jdbc:postgresql://localhost:5432/postgres
+    #username: postgres
+    #password: password
+  #jpa:
+   # generate-ddl: true
+   # show-sql: true
+    #hibernate:
+     # ddl-auto: none
 
    #email configuration for application.properties
 
