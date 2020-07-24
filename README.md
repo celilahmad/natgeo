@@ -1,2 +1,2 @@
-**News Feed project by** : Jalil Ahmadov, Allahsukur Mirzazade, Timur Huseynov, Ramin Arslan
+**National Geography project by** : Jalil Ahmadov
 
