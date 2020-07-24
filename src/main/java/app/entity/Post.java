@@ -1,10 +1,10 @@
 package app.entity;
 
 import lombok.Data;
+import org.hibernate.annotations.CollectionType;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.List;
 
 @Data
 @Entity
@@ -12,11 +12,16 @@ import javax.persistence.Table;
 public class Post {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     private String title;
 
+    private String header;
+
     private String content;
+
+    private String image;
 
     private String author;
 

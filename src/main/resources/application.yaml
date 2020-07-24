@@ -5,11 +5,11 @@ spring:
     url: jdbc:mysql://localhost:3306/natgeo
     username: root
     password: hbstudent
-  jpa:
-    generate-ddl: true
-    show-sql: true
-    hibernate:
-      ddl-auto: create
+  #jpa:
+   # generate-ddl: true
+    #show-sql: true
+    #hibernate:
+     # ddl-auto: create
 
    #email configuration for application.properties
 
