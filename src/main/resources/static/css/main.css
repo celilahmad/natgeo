@@ -950,7 +950,7 @@ header {
 }
 
 .main-menu {
-  background: #04091e;
+  background: #5c0014 /*#04091e*/;
   padding: 15px 20px;
   position: relative;
 }
@@ -1647,7 +1647,7 @@ body {
 .latest-post-area .latest-post-wrap .cat-title {
   font-size: 14px;
   font-weight: 600;
-  background: #04091e;
+  background: #5c0014/*#04091e*/;
   color: #fff;
   padding: 10px 25px;
 }
@@ -2067,7 +2067,7 @@ body {
 }
 
 .single-sidebar-widget .title {
-  background: #04091e;
+  background: #5c0014 /*#04091e*/;
   color: #fff;
   padding: 12px 20px;
   margin-bottom: 20px;
